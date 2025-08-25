@@ -1,6 +1,21 @@
+# IDE和编辑器文件
 .vscode/
 .cache/
+
+# 编译产生的文件
 *.o
 *.pcap
 toyip
 compile_commands.json
+
+# CMake相关文件
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+_deps/
+
+# 系统文件
+.DS_Store
+Thumbs.db
